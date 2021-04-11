@@ -1,0 +1,33 @@
+Guillaume:
+Pour suivre le diagramme UML qu'on avait fait, les instructions relatives au menu principal
+devraient se trouver dans la classe MenuPrincipal, et non pas dans App06SimulateurUnivers. 
+marc
+
+pour tout le monde:
+dans le menu de modification on veut faire exploser la planete ou lastre en plusieur particule ou juste la suprimer ?
+le panel de preview dans l'outil d'édition va etre un composant 3D ou non ?
+si oui tu va devoir me guider marc
+aussi un probleme pour le text field --"
+guillaume 21/02
+	Je crois qu'on peut commencer par juste supprimer l'astre. L'explosion risque d'être plus
+	dans les trucs optionnels, comme les collisions.
+	-Marc-Antoine 24/02
+
+
+POUR COMMIT 6645
+LOG: Calculs avec Euler fonctionnent, barnes-Hut avec euler/ euler inverse, pouvoir afficher barnesHut, grosse optimisation (organiser mon code), et +
+
+
+BUGS ( pour tout le monde)
+
+- Message pour les valeurs Maximums doivent être expliquer ( si la valeurs est trop grosse alors ... )
+- les planets flashent.(en avant - en arriere) [probleme de library]
+- la trace ne ce dessine pas correctement quand le delta est petit. 
+- placement des planets (angle de placement) ???
+
+Bugs réglés:
+- bouton Ajouter/Annuler (Marc-Antoine)(David-Olivier)
+- texture soleil /  change en lune (Marc-Antoine)
+- si la camera est a 90 degree, elle f*ck. (Marc-Antoine)
+- La trajectoire des nouveaux astres s'affiche même si aucun astre n'est en focus (Marc-Antoine)
+- JAR exécutable qui plante (Marc-Antoine)
